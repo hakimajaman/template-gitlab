@@ -1,0 +1,314 @@
+/*
+ *
+ * id -> #
+ * class -> .
+ */
+
+* {
+  margin: 0;
+  font-family: 'sans-serif';
+}
+
+/* Header */
+/*Navigation */
+#main-Nav {
+  background-image: linear-gradient(to left, rgb(82, 63, 140), rgb(56, 42, 98));
+  width: 100%;
+  height: 9%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.brand-Nav {
+  display: block;
+  float: left;
+  margin-left: 100px;
+  padding-top: 13px;
+}
+
+.list-Nav li {
+  display: inline;
+  float: right;
+  margin-right: 30px;
+  padding-right: 50px;
+  padding-top: 13px;
+}
+
+.list-Nav li a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+/*end Navigation*/
+/*Banner*/
+#main-HeaderBanner {
+  background-image: linear-gradient(
+    to right top,
+    rgba(56, 42, 98, 1),
+    rgba(82, 63, 140, 1)
+  );
+  /*url('../../images/1.jpeg');*/
+  padding-top: 60px;
+  height: 91vh;
+}
+
+#left-HeaderBanner {
+  padding-top: 10vw;
+  padding-left: 100px;
+  float: left;
+  color: white;
+}
+
+#left-HeaderBanner h1 {
+  font-size: 49px;
+}
+
+#left-HeaderBanner p {
+  font-size: 20px;
+  padding-top: 23px;
+}
+
+#left-HeaderBanner button {
+  margin-top: 34px;
+  height: 55px;
+  font-size: 18px;
+  margin-right: 10px;
+  padding-right: 13px;
+  padding-left: 14px;
+}
+
+.btn-try {
+  color: white;
+  background-color: #fa7035;
+  border: 1px solid #fa7035;
+  border-radius: 5px;
+}
+
+.btn-watch {
+  color: #fa7035;
+}
+
+#right-HeaderBanner {
+  /*padding-top: 50vh;*/
+  /*padding-right: 100px;*/
+  /*float: right;*/
+  /*padding-top: 23vh;*/
+  /*padding-right: 1px;*/
+}
+
+#right-HeaderBanner a {
+  float: right;
+  color: grey;
+  padding-top: 2vh;
+  padding-right: 153px;
+  font-size: 21px;
+}
+
+#right-HeaderBanner img {
+  float: right;
+  width: 20%;
+  padding-top: 18vh;
+  padding-right: 155px;
+}
+/*end Banner*/
+/*end Header */
+
+/*Section 1*/
+/*Main Section 1*/
+#section-one {
+  /*background-color: lightblue;*/
+}
+
+/*end Main Section 1*/
+/*Quotes 1*/
+#one-quotes {
+  top: 95vh;
+  right: 26%;
+  position: absolute;
+  background-color: white;
+  border: 3px solid #fa7035;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 110px;
+  padding-left: 110px;
+}
+/*end Quotes 1*/
+/*Center FlexBox*/
+#one-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  margin-top: 18px;
+}
+
+.one-flexbox-1 {
+  width: 23rem;
+  height: 35rem;
+  box-shadow: 0.9px 5px 5px grey;
+  margin-top: 10vh;
+  margin-right: 30px;
+}
+
+.one-flexbox-1 h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+}
+
+.one-flexbox-1 p {
+  padding-top: 14px;
+  padding-left: 21px;
+}
+
+.one-flexbox-1 a {
+  color: purple;
+  text-decoration: none;
+  padding-left: 21px;
+}
+
+.one-flexbox-1-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(50, 30, 89, 0.8),
+      rgba(94, 80, 133, 0.8)
+    ),
+    url(../../images/1.jpeg);
+  background-size: 100%;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.one-flexbox-1-background h3 {
+  padding-left: 0px;
+}
+
+.one-flexbox-2 {
+  width: 23rem;
+  height: 35rem;
+  box-shadow: 0.9px 5px 5px grey;
+  margin-top: 10vh;
+  margin-right: 30px;
+}
+
+.one-flexbox-2 h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+}
+
+.one-flexbox-2 p {
+  padding-top: 14px;
+  padding-left: 21px;
+}
+
+.one-flexbox-2 a {
+  color: purple;
+  text-decoration: none;
+  padding-left: 21px;
+}
+
+.one-flexbox-2-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(50, 30, 89, 0.8),
+      rgba(94, 80, 133, 0.8)
+    ),
+    url(../../images/1.jpeg);
+  background-size: 300px;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.one-flexbox-2-background h3 {
+  padding-left: 0px;
+}
+
+.one-flexbox-3 {
+  width: 23rem;
+  height: 35rem;
+  box-shadow: 0.9px 5px 5px grey;
+  margin-top: 10vh;
+}
+
+.one-flexbox-3 h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+}
+
+.one-flexbox-3 p {
+  padding-top: 14px;
+  padding-left: 21px;
+}
+
+.one-flexbox-3 a {
+  color: purple;
+  text-decoration: none;
+  padding-left: 21px;
+}
+
+.one-flexbox-3-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(50, 30, 89, 0.8),
+      rgba(94, 80, 133, 0.8)
+    ),
+    url(../../images/1.jpeg);
+  background-size: 300px;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.one-flexbox-3-background h3 {
+  padding-left: 0px;
+}
+
+/*end Center FlexBox*/
+/*Sponsor*/
+#one-sponsor {
+  /*width: 5%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 150px;
+  margin-top: 50px;
+  top: 240%;
+}
+
+#one-sponsor img {
+  width: 5%;
+  padding-right: 40px;
+}
+/*end Sponsor*/
+/*end Section 1*/
+
+/*Section 2*/
+/*Main Section 2*/
+#section-two {
+  background-color: purple;
+  height: 53%;
+  width: 100%;
+  position: absolute;
+  margin-top: 193vh;
+}
+/*end Main Section 2*/
+/*end Section 2*/
+
+/*Section 3*/
+/*Main Section 3*/
+#section-three {
+  /*background-color: grey;*/
+  /*height: 300%;*/
+  /*position: absolute;*/
+  /*margin-top: 246vh;*/
+}
+/*end Main Section 3*/
+/*end Section 3*/
