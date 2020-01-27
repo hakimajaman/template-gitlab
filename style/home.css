@@ -375,13 +375,7 @@
   color: white;
 }
 
-.center-position {
-  margin-left: 30vw;
-  margin-top: 7vh;
-}
 /*end Main Section 3*/
-/*Table*/
-
 /*end Table*/
 /*end Section 3*/
 
@@ -549,3 +543,22 @@
   text-align: center;
 }
 /*end Footer*/
+
+
+/*Register*/
+/*Main Body*/
+#main-RegisterBody {
+  background-color: blue;
+  padding-top: 60px;
+  height: 91vh;
+}
+
+.nav-img img{
+  width: 3%;
+}
+
+.center-position {
+  text-align: center;
+}
+/*end Main Body*/
+/*end Register*/

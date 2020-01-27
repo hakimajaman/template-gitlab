@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sign up - GitLabTheme</title>
+    <link
+      rel="stylesheet"
+      href="./style/register.css"
+      type="text/css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-img center-position">
+        <img src="../images/logo.png" alt="" />
+      </div>
+    </header>
+
+    <section class="main-RegisterBody">
+      <div class="left-body">
+        <h2>GitLab.com</h2>
+        <p>
+          GitLab.com offers free unlimited (private) repositories and unlimited
+          <br />
+          collaborators.
+        </p>
+        <div class="left-li">
+          <li>
+            <a href="#">Explore projects on GitLab.com</a> (no login needed)
+          </li>
+          <li><a href="#">More information about GitLab.com</a></li>
+          <li><a href="#">GitLab.com Support Forum</a></li>
+          <li><a href="./home.html">GitLab Homepage</a></li>
+        </div>
+        <p>
+          By signing up for and by signing in to this service you accept our:
+        </p>
+        <div class="left-li">
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">GitLab.com Terms.</a></li>
+        </div>
+      </div>
+      <div class="right-body">
+        <div class="log-or-reg">
+          <a href="#" onclick="chooseLogin()" name="signin">Sign in</a>
+          <a href="#" onclick="chooseRegist()" name="register">Register</a>
+        </div>
+        <div class="right-signin form-css">
+          <form action="#">
+            <p>Username or email</p>
+            <input type="text" name="fullname" />
+            <p>Password</p>
+            <input type="password" name="password" />
+            <div class="forgot">
+              <p>
+                <input type="checkbox" name="remember" />
+                remember me
+              </p>
+              <a href="#">forgot your password?</a>
+            </div>
+            <input type="submit" value="Sign in" />
+          </form>
+        </div>
+        <div class="right-signup form-css">
+          <form action="#">
+            <p>Full name</p>
+            <input type="text" name="fullname" />
+            <p>Username</p>
+            <input type="text" name="username" />
+            <p>Email</p>
+            <input type="email" name="email" />
+            <p>Email confirmation</p>
+            <input type="email" name="email" />
+            <p>Password</p>
+            <input type="password" name="password" />
+            <h5>Minimum length is 8 characters</h5>
+            <div class="checkboxx">
+              <p>
+                <input type="checkbox" name="terms" />
+                I accept the
+                <a href="#">Terms of Service and Privacy Policy</a>
+              </p>
+              <p>
+                <input type="checkbox" name="updates" />
+                I'd like to receive updates via email about GitLab.
+              </p>
+            </div>
+            <div
+              class="g-recaptcha"
+              data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"
+            ></div>
+            <input type="submit" value="Register" />
+          </form>
+        </div>
+      </div>
+
+      <div class="another-signin">
+        <h3>Sign in with</h3>
+        <div class="another-left another-space">
+          <a href="#">Google</a>
+          <a href="#">GitHub</a>
+          <a href="#">Salesforce</a>
+        </div>
+        <div class="another-right another-space">
+          <a href="#">Twitter</a>
+          <a href="#">BitBucket</a>
+        </div>
+        <div class="forgot">
+          <p>
+            <input type="checkbox" name="remember" />
+            remember me
+          </p>
+          <a href="#">forgot your password?</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-a">
+        <a href="#">Explore</a>
+        <a href="#">Help</a>
+        <a href="#">About GitLab</a>
+      </div>
+    </footer>
+
+    <!--js-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="./javascript/sign.js"></script>
+  </body>
+</html>
