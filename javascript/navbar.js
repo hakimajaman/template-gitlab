@@ -2,13 +2,12 @@ window.onscroll = function() {myFunction()};
 
 let navbar = document.querySelector(".main-Nav");
 let brandNav = document.querySelectorAll(".brand-Nav li a");
-//let change = document.getElementById("change-Nav");
+
+let drop = document.querySelector(".dropdown");
 
 function myFunction(){
   if(window.pageYOffset > 0){
-    //navbar.style.backgroundColor = `white`
     navbar.classList.replace('main-Nav','change-Nav');
-    //brandNav.style.color = `#899db8`;
     for(var i=0; i<brandNav.length; i++){
       brandNav[i].style.color = `#333333`;
     }
@@ -19,4 +18,15 @@ function myFunction(){
       brandNav[i].style.color = `white`;
     }
   }
+}
+
+function dropFunc(){
+  var z = 0;
+  if(z == 0){
+    drop.style.visibility = `hidden`;
+  }
+  else if(z+=1){
+    drop.style.visibility = `visible`;
+  }
+  console.log(z);
 }
